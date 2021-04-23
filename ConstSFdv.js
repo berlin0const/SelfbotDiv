@@ -6,8 +6,7 @@ console.log('██      ██   ██  ██  ██  ▄ ▀█▄▄  █�
 console.log(' ▀█▄▄▄▀  ▀█▄▄█▀ ▄██▄ ██▄ █▀▄▄█▀  ▀█▄▀ ');
 console.log('                                       ');
 console.log('                                       ');
-console.log('by berlin0const github');
-console.log('Youtube: Const65');
+console.log('by constvk github');
 console.log('                                       ');
 console.log('                                       ');
 const { Console } = require("console");
@@ -17,9 +16,6 @@ const config = require("./Config.json");
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 client.on('ready', () => {
-  console.log(`[+/+/+] Online => BotDiv, ${client.users.size} => usuários / ${client.guilds.size} => servidores.`);
-  console.log(`[+/+/+] Online => BotDiv, ${client.users.size} => usuários / ${client.guilds.size} => servidores.`);
-  console.log(`[+/+/+] Online => BotDiv, ${client.users.size} => usuários / ${client.guilds.size} => servidores.`);
   console.log(`[+/+/+] Online => BotDiv, ${client.users.size} => usuários / ${client.guilds.size} => servidores.`);
 });
 
