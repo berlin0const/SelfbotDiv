@@ -2,12 +2,12 @@
 @break off
 color 2
 mode con:cols=100 lines=30
-title Bot discord
+title Discord SelfBot by Const
 
 :inicio
 color 2
 cls.
-call node\node.exe ConstSFdv.js
+call node\node.exe index.js
 echo.
 echo.
 color 2
